@@ -1,6 +1,6 @@
 #-------------------------------------------------------------
 # AUTHOR: Ivan Trinh
-# FILENAME: title of the source file
+# FILENAME: search_engine.py
 # SPECIFICATION: description of the program
 # FOR: CS 5180- Assignment #1
 # TIME SPENT: about like a few hours
@@ -75,7 +75,6 @@ query_vector = vectorizer.transform(query)
 # ---------------------------------------------------------
 # Convert matrices to plain Python lists
 # ---------------------------------------------------------
-# --> add your Python code here
 
 doc_vectors = document_matrix.toarray().tolist()
 query_vector = query_vector.toarray()[0]
